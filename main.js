@@ -16,12 +16,13 @@ let marker = new mapboxgl.Marker()
 async function run(){   
 	const locations = await getBusLocations();
 
-    for(let i = 0; i < locations.length; i ++){
+       for(let i = 0; i < locations.length; i ++){
 		let lg = locations[i].attributes.longitude;
 		let lat = locations[i].attributes.latitude;
 		marker.setLngLat([lg, lat]);
         map.setCenter([lg, lat]);
 	}
+	
 	setTimeout(run, 15000);
 }
 
