@@ -20,7 +20,8 @@ async function run(){
 		let lg = locations[i].attributes.longitude;
 		let lat = locations[i].attributes.latitude;
 		marker.setLngLat([lg, lat]);
-        map.setCenter([lg, lat]);
+                map.setCenter([lg, lat]);
+	        map.resize();
 	}
 	
 	setTimeout(run, 15000);
