@@ -1,8 +1,6 @@
 # Real-Time-MBTA-bus-tracking: 
 
-Overview: Tracking live bus movement by integrating two API's. 
-
-Integrated MBTA API with mapbox API to track the bus movement in real time based on the longitude and latitude. The marker icon move every 15 seconds.
+Overview: Tracking live bus movement by integrating two API's. Integrated MBTA API with mapbox API to track the bus movement in real time based on the longitude and latitude. The marker icon moves every 15 seconds.
 
 How to run: Load the html of this repo or go to https://premmuddu.github.io/Real-Time-MBTA-bus-tracking/ on the browser window to checkout my other Projects.
 
